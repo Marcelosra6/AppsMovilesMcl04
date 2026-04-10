@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datePicker"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <Button
         android:id="@+id/btnRetroceder"
@@ -42,6 +42,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnConfigurar"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.376" />
 
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="0dp"
+        android:layout_height="111dp"
+        android:background="#673AB7"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2026 niggalabs. Todos los derechos reservados"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
